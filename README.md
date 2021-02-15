@@ -2,5 +2,5 @@
 
 > بوت بايثون
 # Cmd
->> userinfo
->> server
+> userinfo
+> server
