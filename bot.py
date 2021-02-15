@@ -11,7 +11,7 @@ async def on_ready():
     print("Bot is ready!")
 
 @client.command()
-async def server(ctx):
+async def serverinfo(ctx):
   embed = discord.Embed(title = f'Server Info')
   embed.set_thumbnail(url=ctx.guild.icon_url)
   embed.add_field(name="Info", value=f'**Owner** : <@{ctx.guild.owner_id}> | `{ctx.guild.owner_id}` \n**Name** : {ctx.guild.name} | `{ctx.guild.id}` \n**Banned Member** : {len(await ctx.guild.bans())}\n**Region** : {ctx.guild.region}\n**Created at** : {ctx.guild.created_at.strftime("%d/%m/%Y %H:%M:%S")} \n**Roles** : {len(ctx.guild.roles)}\n**Emojis** : {len(ctx.guild.emojis)}',inline=False)
