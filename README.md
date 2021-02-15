@@ -1,6 +1,9 @@
 # Info-Cmd-discord.py
 
 > بوت بايثون
-# Cmd
+# Cmd 
 > userinfo
-> server
+<img src="https://cdn.discordapp.com/attachments/729507006788141096/810791599968747530/userinfo.png" />
+# Cmd 
+> serverinfo
+<img src="https://cdn.discordapp.com/attachments/729507006788141096/810791600590422056/serverinfo.png"/>
