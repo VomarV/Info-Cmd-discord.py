@@ -1,5 +1,6 @@
 # Info-Cmd-discord.py
 
 > بوت بايثون
-# كود معلومات سيرفر
-# كود معلومات الحساب
+# Cmd
+# userinfo
+# server
